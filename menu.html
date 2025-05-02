@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en"><!-- Basic -->
 <head>
@@ -581,4 +582,589 @@
 	
 	<a href="#" id="back-to-top" title="Back to top" style="display: none;"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></a>
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en"><!-- Basic -->
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+     <!-- Site Metas -->
+     <title>Royal Food Corner Restaurant</title>   
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">    
+	<!-- Site CSS -->
+    <link rel="stylesheet" href="css/style.css">    
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+	<!-- New Header -->
+	<header class="header">
+        <nav>
+          <div class="logo">
+            <a href="index.html"></a>
+            <img id="logo" src="Pics/logo6.jpg" alt="" width="80" height="60">
+            <h2><b>Royal Food Corner</b></h2>
+            <style>
+              h2{
+               font-size:30px !important;
+               display: inline-block;
+               color:#d65106;
+              }
+            </style>
+          </div>
+          <input type="checkbox" id="menu-toggle">
+          <label for="menu-toggle" class="menu-icon">&#9776;</label>
+          <ul class="menu">
+            
+            <li><a class="nav-link" href="index.html">Home</a></li>
+						<li><a class="nav-link" href="about.html">About</a></li>
+						<li><a class="nav-link" href="menu.html">Menu</a></li>
+						<li><a class="nav-link" href="contact.html">Contact</a></li>
+						<a><i class="fa fa-search" aria-hidden="true"> Search </i></a>
+
+						<!-- Login Button -->
+				<button class="open-button" onclick="openForm()">
+					<h3 style="color: white; font-size: 19px; padding: 10px;">
+						<i class="fa fa-user" aria-hidden="true"></i>
+						<b>Login</b>
+			
+					</h3>
+				</button>
+			
+				<div class="form-popup" id="myForm">
+					<form action="" class="form-container">
+						<h2 style="text-decoration-line: underline;">LOGIN</h2>
+						<div></div>
+						
+						<input type="text" placeholder="Enter Email" name="email" required>
+						<input type="password" placeholder="Enter Password" name="psw" required>
+			
+						<button type="submit" class="btn" style="font-size: 15px;">Login</button>
+						<button type="button" class="btn cancel" style="font-size: 15px;" onclick="closeForm()" ,1200,650>Close</button>
+						<p>Not a member? <span span style="color:blue">Register</span></p>
+						<div class="text-center">
+							<p>or Sign up with:</p>
+							<button type="button" class="But">
+							  <i class="fa fa-facebook-f"></i>
+							</button>
+						
+							<button type="button" class="But">
+							  <i class="fa fa-google"></i>
+							</button>
+						
+							<button type="button" class="But">
+							  <i class="fa fa-twitter"></i>
+							</button>
+						
+							<button type="button" class="But">
+							  <i class="fa fa-github"></i>
+					</form>
+				</div>
+			
+			
+				<script>
+					function openForm() {
+						document.getElementById("myForm").style.display = "block";
+					}
+			
+					function closeForm() {
+						document.getElementById("myForm").style.display = "none";
+					}
+				</script>
+
+          </ul>
+        </nav>
+      </header>
+	
+	
+	<!-- Start All Pages -->
+	<div class="all-page-title page-breadcrumb">
+		<div class="container text-center">
+			<div class="row">
+				<div class="col-lg-12">
+					<h1>Special Menu</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End All Pages -->
+	   
+	
+		<div class="container">
+
+			<h3 class="title" style="text-decoration: underline #db6027; color: #d65106;"> <b>Our Menu </b></h3>
+		 
+			<div class="products-container">
+		       
+			   <div class="product" data-name="p-1">
+				  <img src="Pics/rice.jpg" alt="" height="200px" width="300px">
+				  <h3>Rice</h3>
+				  <div class="price">Rs.300</div>
+			   </div>
+		 
+			   <div class="product" data-name="p-2">
+				<img src="Pics/Pittu3.jpg" alt="" height="200px" width="300px">
+				  <h3>Pittu</h3>
+				  <div class="price">Rs.200</div>
+			   </div>
+		 
+			   <div class="product" data-name="p-3">
+				<img src="Pics/Kothu.webp"   alt="" height="200px" width="300px">
+				  <h3>Kothu Roti</h3>
+				  <div class="price">Rs.200</div>
+			   </div>
+		 
+			   <div class="product" data-name="p-4">
+				<img src="Pics/Veg briyani.webp" alt="" height="200px" width="300px">
+				  <h3>Veg Briyani</h3>
+				  <div class="price">Rs.200</div>
+			   </div>
+		 
+			   <div class="product" data-name="p-5">
+				<img src="Pics/String_hoppers.jpg" alt="" height="200px" width="300px">
+				  <h3>String Hoppers</h3>
+				  <div class="price">Rs.200</div>
+			   </div>
+		 
+			   <div class="product" data-name="p-6">
+				<img src="Pics/Naan.png" alt="" height="200px" width="300px">
+				  <h3>Naan</h3>
+				  <div class="price">Rs.200</div>
+			   </div>
+
+			   <div class="product" data-name="p-4">
+				<img src="Pics/Thosa.webp" alt="" height="200px" width="300px">
+				  <h3>Thosai</h3>
+				  <div class="price">Rs.200</div>
+			   </div>
+		 
+			   <div class="product" data-name="p-5">
+				<img src="Pics/kiribath-6314067_1280.jpg" alt="" height="200px" width="300px">
+				  <h3>Kiribath</h3>
+				  <div class="price">Rs.200</div>
+			   </div>
+		 
+			   <div class="product" data-name="p-6">
+				<img src="Pics/Indian chinese noodles.jpeg" alt="" height="200px" width="300px">
+				  <h3>Noodles</h3>
+				  <div class="price">Rs.200</div>
+			   </div>
+		 
+			</div>
+		 
+		 </div>
+		 
+		 <div class="products-preview">
+		 
+			<div class="preview" data-target="p-1">
+			   <i class="fa fa-times"></i>
+			   <h3>Rice</h3>
+			   <div class="stars">
+				  <i class="fa fa-star"></i>
+				  <i class="fa fa-star"></i>
+				  <i class="fa fa-star"></i>
+				  <i class="fa fa-star"></i>
+				  <i class="fa fa-star-half"></i>
+				 
+			   </div>
+			   <p align="justify">Rice is a staple food that plays a crucial role in the diets of billions of people around the world. It is a cereal grain and is one of the most widely consumed and important crops globally. </p>
+			   <div class="price">Rs.200</div>
+			   <div class="buttons">
+				  <a href="#" class="buy">buy now</a>
+				  <a href="#" class="cart">add to cart</a>
+			   </div>
+			</div>
+		 
+			<div class="preview" data-target="p-2">
+			   <i class="fa fa-times"></i>
+			   <h3>Pittu</h3>
+			   <div class="stars">
+				  <i class="fa fa-star"></i>
+				  <i class="fa fa-star"></i>
+				  <i class="fa fa-star"></i>
+				  <i class="fa fa-star"></i>
+				  <i class="fa fa-star"></i>
+				  
+			   </div>
+			   <p align="justify">Pittu is loved for its unique texture, a balance of crumbly and fluffy, and its ability to pair well with both sweet and savory accompaniments. It's a versatile and delicious dish that is cherished in South Indian and Sri Lankan cuisines.</p>
+			   <div class="price">Rs.200</div>
+			   <div class="buttons">
+				  <a href="#" class="buy">buy now</a>
+				  <a href="#" class="cart">add to cart</a>
+			   </div>
+			</div>
+		 
+			<div class="preview" data-target="p-3">
+			   <i class="fa fa-times"></i>
+			   <h3>Kothu Roti</h3>
+			   <div class="stars">
+				  <i class="fa fa-star"></i>
+				  <i class="fa fa-star"></i>
+				  <i class="fa fa-star"></i>
+				  <i class="fa fa-star"></i>
+				  <i class="fa fa-star-half"></i>
+				  
+			   </div>
+			   <p align="justify">popular street food item in Sri Lanka and South India. It's known for its bold and spicy flavors, making it a satisfying and hearty dish that's enjoyed by locals and visitors alike. Kothu Roti offers a delightful fusion of textures and tastes, making it a must-try for anyone exploring South Asian cuisine.</p>
+			   <div class="price">Rs.200</div>
+			   <div class="buttons">
+				  <a href="#" class="buy">buy now</a>
+				  <a href="#" class="cart">add to cart</a>
+			   </div>
+			</div>
+		 
+			<div class="preview" data-target="p-4">
+			   <i class="fa fa-times"></i>
+		
+			   <h3>Veg Briyani</h3>
+			   <div class="stars">
+				  <i class="fa fa-star"></i>
+				  <i class="fa fa-star"></i>
+				  <i class="fa fa-star"></i>
+				  <i class="fa fa-star"></i>
+				  <i class="fa fa-star-half"></i>
+				 
+			   </div>
+			   <p align="justify">Vegetable Biryani is typically served hot and can be accompanied by a side of raita (yogurt with herbs and spices), pickle, or salad. It is often enjoyed as a standalone main dish or as part of a larger Indian meal. The aromatic blend of spices and the rich, creamy texture of the biryani make it a beloved and satisfying dish for vegetarians and a favorite at special occasions and celebrations.</p>
+			   <div class="price">Rs.200</div>
+			   <div class="buttons">
+				  <a href="#" class="buy">buy now</a>
+				  <a href="#" class="cart">add to cart</a>
+			   </div>
+			</div>
+		 
+			<div class="preview" data-target="p-5">
+			   <i class="fa fa-times"></i>
+			   <h3>String Hoppers</h3>
+			   <div class="stars">
+				  <i class="fa fa-star"></i>
+				  <i class="fa fa-star"></i>
+				  <i class="fa fa-star"></i>
+				  <i class="fa fa-star"></i>
+				  <i class="fa fa-star-half"></i>
+				  
+			   </div>
+			   <p align="justify">String hoppers are a versatile and delicious food item with a unique texture and the ability to pair well with both savory and sweet flavors. They are a staple in South Indian and Sri Lankan cuisines and are loved for their delicate and tender nature.</p>
+			   <div class="price">Rs.200</div>
+			   <div class="buttons">
+				  <a href="#" class="buy">buy now</a>
+				  <a href="#" class="cart">add to cart</a>
+			   </div>
+			</div>
+		 
+			<div class="preview" data-target="p-6">
+			   <i class="fa fa-times"></i>
+			   <h3>Naan</h3>
+			   <div class="stars">
+				  <i class="fa fa-star"></i>
+				  <i class="fa fa-star"></i>
+				  <i class="fa fa-star"></i>
+				  <i class="fa fa-star"></i>
+				  <i class="fa fa-star-half"></i>
+				  
+			   </div>
+			   <p align="justify">Naan is a popular and versatile flatbread that is a staple in Indian cuisine, particularly in Northern India, although it is enjoyed throughout the country and around the world. It is known for its soft and slightly chewy texture and is often served as an accompaniment to various dishes or used to scoop up curries and other flavorful gravies.</p>
+			   <div class="price">Rs.200</div>
+			   <div class="buttons">
+				  <a href="#" class="buy">buy now</a>
+				  <a href="#" class="cart">add to cart</a>
+			   </div>
+			</div>
+
+			<div class="preview" data-target="p-6">
+				<i class="fa fa-times"></i>
+				<h3>Thosai</h3>
+				<div class="stars">
+				   <i class="fa fa-star"></i>
+				   <i class="fa fa-star"></i>
+				   <i class="fa fa-star"></i>
+				   <i class="fa fa-star"></i>
+				   <i class="fa fa-star-half"></i>
+				   
+				</div>
+				<p align="justify">popular South Indian and Sri Lankan crepe or pancake made from fermented rice and urad dal (black gram) batter. It is a staple food in these regions and is widely enjoyed for its versatile nature and delicious taste.</p>
+				<div class="price">Rs.200</div>
+				<div class="buttons">
+				   <a href="#" class="buy">buy now</a>
+				   <a href="#" class="cart">add to cart</a>
+				</div>
+			 </div>
+
+			 <div class="preview" data-target="p-6">
+				<i class="fa fa-times"></i>
+				<h3>Kiribath</h3>
+				<div class="stars">
+				   <i class="fa fa-star"></i>
+				   <i class="fa fa-star"></i>
+				   <i class="fa fa-star"></i>
+				   <i class="fa fa-star"></i>
+				   <i class="fa fa-star-half"></i>
+				   
+				</div>
+				<p align="justify">Sri Lankan dish that holds a special place in the country's culinary traditions. It is a simple yet flavorful preparation that consists of rice cooked with coconut milk. Kiribath is often made to celebrate special occasions and festivals in Sri Lanka, and it is a dish that showcases the importance of rice and coconut in the local diet.</p>
+				<div class="price">Rs.200</div>
+				<div class="buttons">
+				   <a href="#" class="buy">buy now</a>
+				   <a href="#" class="cart">add to cart</a>
+				</div>
+			 </div>
+
+			 <div class="preview" data-target="p-6">
+				<i class="fa fa-times"></i>
+				<h3>Noodles</h3>
+				<div class="stars">
+				   <i class="fa fa-star"></i>
+				   <i class="fa fa-star"></i>
+				   <i class="fa fa-star"></i>
+				   <i class="fa fa-star"></i>
+				   <i class="fa fa-star"></i>
+
+ 				</div>
+				<p align="justify">Noodles are highly versatile and are used in a wide range of dishes, including stir-fries, soups, stews, salads, and more. They can be dressed with a variety of sauces, from tomato-based to creamy, or simply seasoned with oil, herbs, and spices. Noodles are a comfort food enjoyed by people all over the world, and the specific preparation and serving methods can vary greatly depending on regional cuisines and individual preferences.</p>
+				<div class="price">Rs.200</div>
+				<div class="buttons">
+				   <a href="#" class="buy">buy now</a>
+				   <a href="#" class="cart">add to cart</a>
+				</div>
+			 </div>
+		 
+		 </div>
+          
+		 <script>
+			let preveiwContainer = document.querySelector('.products-preview');
+			let previewBox = preveiwContainer.querySelectorAll('.preview');
+
+			document.querySelectorAll('.products-container .product').forEach(product =>{
+			product.onclick = () =>{
+				preveiwContainer.style.display = 'flex';
+				let name = product.getAttribute('data-name');
+				previewBox.forEach(preview =>{
+				let target = preview.getAttribute('data-target');
+				if(name == target){
+					preview.classList.add('active');
+				}
+				});
+			};
+			});
+
+			previewBox.forEach(close =>{
+			close.querySelector('.fa-times').onclick = () =>{
+				close.classList.remove('active');
+				preveiwContainer.style.display = 'none';
+			};
+			});
+		 </script>
+
+		
+<!-- Food Start -->
+<div class="food mt-0">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-md-4">
+				<div class="food-item">
+					<i class='bx bxs-drink'></i>
+					<h2>Drinks</h2>
+					<p align="justify">
+						Indulge in a diverse range of tantalizing drinks that cater to every palate. From the invigorating burst of our Zesty Citrus Cooler to the soothing delight of our Lavender Lemonade, our drink menu offers a spectrum of flavors to complement your meal or enjoy on their own. Sip, savor, and experience the perfect refreshment for any occasion.
+					</p>
+					<a href="">View Menu</a>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="food-item">
+					<i class='bx bxs-cookie'></i>
+					<h2>Snacks</h2>
+					<p align="justify">
+						Elevate your snacking game with our handpicked selection of delectable treats. Whether you're in the mood for a savory crunch, a sweet delight, or something in between, our snacks are here to satisfy your cravings. Dive into the world of artisanal chips, gourmet popcorn, and more, and discover the joy of snacking like never before.
+					</p>
+					<a href="">View Menu</a>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="food-item">
+					<i class='bx bx-wine'></i>
+					<h2>Beverages</h2>
+					<p align="justify">
+						Quench your thirst with our collection of meticulously crafted beverages. From artisanal teas and specialty coffees to classic and innovative soft drinks, we've curated a range of options to suit your desires. Whether you're seeking a caffeine fix, a burst of fruitiness, or a taste of something unique, our beverage lineup has you covered.
+					</p>
+					<a href="">View Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Food End -->
+
+
+	<!-- Customer Reviews -->
+
+	<div class="testimonials">
+		<div class="inner">
+			<h1>Customer Review</h1>
+			<div class="border"></div>
+
+			<div class="row">
+				<div class="col">
+					<div class="testimonial">
+						<img src="Pics/client.jpg" alt="" height="300px" width="250px">
+						<div class="name">E.Aana</div>
+						<div class="stars">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-half-o"></i>
+						</div>
+						<p align="justify">We sat outside on the terrace which was very pretty and private. Our waitress
+							was wonderful and the food was absolutely delicious!! It could not have been more
+							spectacular! We would highly recommend it to everyone!!</p>
+					</div>
+				</div>
+
+				<div class="col">
+					<div class="testimonial">
+						<img src="Pics/client1.jpg" alt="" height="300px" width="250px">
+						<div class="name">A.Ronnie</div>
+						<div class="stars">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-half-o"></i>
+						</div>
+						<p align="justify">"Breakfast was delicious. Like a good homestyle country savory breakfast (and
+							Im from the south, thats saying a lot) Enjoyed the whole experience and definitely recommend
+							this place for a place to eat on the cape.” </p>
+					</div>
+				</div>
+
+				<div class="col">
+					<div class="testimonial">
+						<img src="Pics/client2.jpg" alt="" height="300px" width="250px">
+						<div class="name">M.Bill</div>
+						<div class="stars">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-half-o"></i>
+						</div>
+						<p align="justify">“Very good service, good menu … not overly extensive. Food was very good
+							quality all around. They know how to prepare home fries and their omelets are top-notch.
+							Prices were reasonable.Enjoy your fav meal.”</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- Start Contact info -->
+	<div class="contact-imfo-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 arrow-right">
+					<i class="fa fa-volume-control-phone"></i>
+					<div class="overflow-hidden">
+						<h4>Phone</h4>
+						<p class="lead">
+							+9478568472
+						</p>
+					</div>
+				</div>
+				<div class="col-md-4 arrow-right">
+					<i class="fa fa-envelope"></i>
+					<div class="overflow-hidden">
+						<h4>Email</h4>
+						<p class="lead">
+							royalfoodcorner@gmail.com
+						</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<i class="fa fa-map-marker"></i>
+					<div class="overflow-hidden">
+						<h4>Location</h4>
+						<p class="lead">
+							03, Wellawatte, Colombo.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Contact info -->
+	
+	<!-- Start Footer -->
+	<footer class="footer-area bg-f">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-6">
+					<h3>About Us</h3>
+					<p align="justify">Our diverse, chef-crafted menu promises memorable dining, whether it's a romantic night out, a family gathering, or a business meeting. Join us to savor culinary artistry and create cherished moments.</p>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<h3>Subscribe</h3>
+					<div class="subscribe_form">
+						<form class="subscribe_form">
+							<input name="EMAIL" id="subs-email" class="form_input" placeholder="Email Address..." type="email">
+							<button type="submit" class="submit">SUBSCRIBE</button>
+							<div class="clearfix"></div>
+						</form>
+					</div>
+					<ul class="list-inline f-social">
+						<li class="list-inline-item"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li class="list-inline-item"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						<li class="list-inline-item"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+						<li class="list-inline-item"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+						<li class="list-inline-item"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+					</ul>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<h3>Contact information</h3>
+					<p class="lead">03,Wellawatte,Colombo.</p>
+					<p class="lead"><a href="#">+9478568472</a></p>
+					<p><a href="#"> royalfoodcorner@gmail.com</a></p>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<h3>Opening hours</h3>
+					<p><span class="text-color">Monday: </span>Closed</p>
+					<p><span class="text-color">Tue-Wed :</span> 9:Am - 10PM</p>
+					<p><span class="text-color">Thu-Fri :</span> 9:Am - 10PM</p>
+					<p><span class="text-color">Sat-Sun :</span> 5:PM - 10PM</p>
+				</div>
+			</div>
+		</div>
+		
+		<div class="copyright">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<p class="company-name">All Rights Reserved. &copy; 2023 <a href="#">Royal Food Corner Restaurant</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</footer>
+	<!-- End Footer -->
+	
+	<a href="#" id="back-to-top" title="Back to top" style="display: none;"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></a>
+</body>
+>>>>>>> 0a856a8715dfdb721f94ac8698c9de06d856a966
 </html>
